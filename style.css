@@ -4,6 +4,23 @@
     margin: 0;
 }
 
+header {
+  background: #E2DED0;
+    text-align: right;
+    padding: 5%;
+  }
+
+header a{
+        text-decoration: none;
+        font-size: 10px;
+        padding: 5px;
+}
+
+header img{
+  width: 20px;
+}
+
+
 #introduction{
     background-color: #E2DED0;
 }
@@ -167,6 +184,7 @@
 
 
 footer {
+  background: #E2DED0;
     text-align: center;
     padding: 5%;
   }
@@ -177,11 +195,32 @@ footer a{
         padding: 9px;
 }
 footer p {
-    font-size: 10px;
+    font-size: 13px;
     padding-top: 10px;
 } 
+footer img{
+  width: 25px;
+}
 
 @media only screen and (min-width: 748px){
+
+  /*********************HEADER *********************/
+  header {
+    background: #E2DED0;
+      text-align: right;
+      padding: 2%;
+    }
+  
+  header a{
+          text-decoration: none;
+          font-size: 10px;
+          padding: 13px;
+  }
+  
+  header img{
+    width: 25px;
+  }
+  
     /*********************INTRODUCTION *********************/
 .intro-container{
     height: 35rem;
@@ -335,6 +374,10 @@ footer p {
     padding-top: 10px;
   }
 
+footer img{
+  width: 27px;
+}
+
 /*********************INTERNSHIPS *********************/
 
   .timeline::before{
@@ -357,14 +400,14 @@ footer p {
 .timeline ul li:nth-child(odd) {
     float: left;
     clear: right;
-    transform: translateX(-30px);
+    transform: translateX(-15px);
     border-radius: 20px 0 20px 20px
 } 
 
 .timeline ul li:nth-child(even) {
     float: right;
     clear: left;
-    transform: translateX(30px);
+    transform: translateX(45px);
     border-radius: 0 20px 20px 20px
     
 }
